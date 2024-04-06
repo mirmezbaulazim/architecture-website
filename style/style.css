@@ -38,7 +38,7 @@ nav li{
     list-style: none;
     margin-right: 30px;
 }
-nav li>a{
+nav li > a{
     text-decoration: none;
     font-size: 18px;
     color: black;
@@ -60,4 +60,28 @@ nav li>a{
 }
 .banner img{
     width: 100%;
+}
+/* Responsive web  */
+/* Mobile Device  */
+@media screen and (max-width:576px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    nav li{
+        margin-top: 20px;
+    }
+}
+/* Tablet Device */
+@media screen and (min-width:577px) and (max-width:960px) {
+    header{
+        padding: 50px;
+    }nav{
+        flex-direction: column;
+    }
+    nav li{
+        margin-top: 20px;
+    }
 }
