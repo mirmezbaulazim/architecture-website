@@ -64,7 +64,7 @@ nav li > a{
 /* Main Section Style  */
 main{
     max-width: 1440px;
-    margin: 50px 200px;
+    margin: 50px auto;
 }
 /* Teams Section Style  */
 .teams-img-container{
