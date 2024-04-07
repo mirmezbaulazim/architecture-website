@@ -175,6 +175,25 @@ border-radius: 5px;
     margin-top: 10px;
     font-size: 20px;
 }
+/* Sponsor Section Style  */
+.sponsor-container{
+    text-align: center;
+    margin-top: 30px;
+}
+.sponsor-titel{
+    font-size: 2.8rem;
+}
+.sponsor-description{
+    margin-top: 20px;
+    font-size: 16px;
+}
+.sponsor-img img{
+    margin: 50px 40px 0;
+    filter: grayscale(100%);
+}
+.sponsor-img img:hover{
+    filter: grayscale(0%);
+}
 /* Responsive web for device  */
 /* Mobile Device (Small) Responsive  */
 @media screen and (max-width:576px) {
@@ -212,6 +231,12 @@ border-radius: 5px;
     .some-fact-container{
         align-items: center;
         width: 100%;
+    }
+    .sponsor-container{
+        padding: 20px;
+    }
+    .sponsor-img img{
+        width: 50%;
     }
 }
 /* Tablet Device (Medium) Responsive */
