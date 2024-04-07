@@ -64,7 +64,7 @@ nav li > a{
 /* Main Section Style  */
 main{
     max-width: 1024px;
-    margin: 50px auto;
+    margin: 0 auto;
 }
 /* Teams Section Style  */
 .teams-img-container{
@@ -81,6 +81,7 @@ main{
 .teams-container{
     display: flex;
     align-items: center;
+    margin-top: 50px;
 }
 .feature-titel{
     font-size: 2.8rem;
@@ -113,7 +114,7 @@ main{
         grid-template-columns: 1fr;
     }
     .teams-feature-container{
-        padding: 15px;
+        padding: 20px 15px;
         text-align: center;
     }
 }
@@ -129,7 +130,7 @@ main{
         margin-top: 20px;
     }
     .teams-feature-container{
-        padding: 15px;
+        padding: 20px 15px;
         text-align: center;
     }
 }
