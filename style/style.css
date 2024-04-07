@@ -232,8 +232,13 @@ border-radius: 5px;
         width: 350px;
         height: 500px;
     }
+    .freature-img-container{
+        margin: auto;
+        text-align: center;
+    }
     .btn-prymary2{
-        display: none;
+        position: static;
+        max-width: 300px;
     }
     .some-fact{
         width: 100%;
@@ -271,8 +276,13 @@ border-radius: 5px;
         padding: 20px 15px;
         text-align: center;
     }
+    .freature-img-container{
+        margin: auto;
+        text-align: center;
+    }
     .btn-prymary2{
-        display: none;
+        position: static;
+        max-width: 300px;
     }
     .some-fact{
         padding: 20px;
@@ -281,6 +291,8 @@ border-radius: 5px;
     }
     .some-fact-container{
         padding: 20px;
+        flex-wrap: wrap;
+        margin: 0 120px;
     }
     .copyright{
         margin: 50px auto 0;
