@@ -75,7 +75,7 @@ main{
 .teams-img-container img{
     width: 15.6rem;
 }
-.teams-feature-container{
+.teams-text-container{
     padding-left: 70px;
 }
 .teams-container{
@@ -83,7 +83,7 @@ main{
     align-items: center;
     margin-top: 50px;
 }
-.feature-titel{
+.teams-titel{
     font-size: 2.8rem;
     font-weight: 700px;
 }
@@ -93,9 +93,60 @@ main{
 .span-2{
     color: #FF900E;
 }
+.teams-discription{
+    font-size: 16px;
+    font-weight: 400px;
+}
+/* Feature Section Style  */
+.freature-container{
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+}
+.freature-text-container{
+    padding-right: 50px;
+}
+.feature-titel{
+    font-size: 2.8rem;
+    font-weight: 700;
+    border-left: 5px solid #FF900E ;
+    padding-left: 30px;
+}
 .feature-discription{
     font-size: 16px;
     font-weight: 400px;
+    margin-top: 20px;
+}
+.feature-work{
+    margin-top: 30px;
+}
+.feature-work-container{
+    background: #FFFFFF;
+    padding: 15px;
+    margin: 10px;
+    box-shadow: 0px 0px 20px rgb(224, 229, 232);;
+}
+/* .work-titel{
+    margin-top: 25px;
+} */
+.work-description{
+    margin-top: 10px;
+}
+.freature-img-container img{
+    width: 500px;
+    height: 780px;
+}
+.btn-prymary2{
+    font-size: 20px;
+    padding: 25px 30px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #FF900E;
+    color: white;
+    margin-top: 20px;
+    position: relative;
+    top: -80px;
+    left: -50px;
 }
 /* Responsive web for device  */
 /* Mobile Device (Small) Responsive  */
@@ -104,7 +155,8 @@ main{
         padding: 20px;
     }
     nav, 
-    .teams-container{
+    .teams-container,
+    .freature-container{
         flex-direction: column;
     }
     nav li{
@@ -113,9 +165,13 @@ main{
     .teams-img-container{
         grid-template-columns: 1fr;
     }
-    .teams-feature-container{
+    .teams-text-container,
+    .freature-text-container{
         padding: 20px 15px;
         text-align: center;
+    }
+    .btn-prymary2{
+        display: none;
     }
 }
 /* Tablet Device (Medium) Responsive */
@@ -123,14 +179,19 @@ main{
     header{
         padding: 50px;
     }nav , 
-    .teams-container{
+    .teams-container,
+    .freature-container{
         flex-direction: column;
     }
     nav li{
         margin-top: 20px;
     }
-    .teams-feature-container{
+    .teams-text-container,
+    .freature-text-container{
         padding: 20px 15px;
         text-align: center;
+    }
+    .btn-prymary2{
+        display: none;
     }
 }
