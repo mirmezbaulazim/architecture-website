@@ -207,7 +207,7 @@ border-radius: 5px;
 }
 /* Responsive web for device  */
 /* Mobile Device (Small) Responsive  */
-@media screen and (max-width:576px) {
+@media screen and (max-width:577px) {
     header{
         padding: 20px;
     }
