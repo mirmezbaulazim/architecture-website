@@ -217,8 +217,12 @@ border-radius: 5px;
     .some-fact-container{
         flex-direction: column;
     }
+    nav >ul{
+        padding-left: 0;
+    }
     nav li{
         margin-top: 20px;
+        margin-left: 10px;
     }
     .teams-img-container{
         grid-template-columns: 1fr;
